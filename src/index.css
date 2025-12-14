@@ -1,0 +1,6 @@
+@import "tailwindcss";
+.active{
+    /* background-color: aqua; */
+    color: rgba(0, 0, 255, 0.658);
+    border-bottom: 1px solid rgba(0, 0, 255, 0.658) ;
+}
