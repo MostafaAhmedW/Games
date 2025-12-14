@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,7 +12,7 @@ export default function Navbar() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="../../../public/game-logo.jpg"
+              src="/game-logo.jpg"
               className="h-10"
               alt="game-logo"
             />
